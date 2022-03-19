@@ -1,27 +1,20 @@
-Create an ERC20 (ZuriToken) with 1000000 total supplies.
+Created ERC20 (BlockGameToken) with 1000000 total supplies.
 Then add a buyTokens function to be able to tade the tokens with ETH
 The worth of the token is 1000 tokens per ETH
+Increment the total supply with the newly created tokens
 
-ERC 20 VERIFIED ETHERSCAN ADDRESS : https://rinkeby.etherscan.io/address/0x8016eb63064F5ccC73cBbCc27AD0A8c5F7f261f5
-RINKEBY ADDRESS: 0x8005467d5e7A27BA47D05F4f54A72779AEaca9F6
-
-
-Next is to create an ERC721 (Non-Fungible token)
+ERC20 ADDRESS : https://rinkeby.etherscan.io/address/0xa21a4df6867e8113ff3d1528d84f67d8a57929e3#code
+RINKEBY ADDRESS: 0x05BB02ceb608Ca9a265B8942A37B6abfF04177CB
 
 
-IPFS Address Link (NFT 1): https://ipfs.io/ipfs/QmUPjADFGEKmfohdTaNcWhp7VGk26h5jXDA7v3VtTnTLcW
-IPFS Address Link (NFT 2): https://ipfs.io/ipfs/QmYx6GsYAKnNzZ9A6NvEKV9nf1VaDzJrqDR23Y8YSkebLU
-
-Metadata structure: {
-               name : ZurTeamNft
-
-               image (1) : https://gateway.pinata.cloud/ipfs/QmUPjADFGEKmfohdTaNcWhp7VGk26h5jXDA7v3VtTnTLcW
-               image (2) : https://gateway.pinata.cloud/ipfs/QmYx6GsYAKnNzZ9A6NvEKV9nf1VaDzJrqDR23Y8YSkebLU
-
-               description: Zuri team third task to create an ERC721 mintable token
-
-     }
-
-
-ERC721 VERIFIED ETHERSCAN ADDRESS: https://rinkeby.etherscan.io/address/0x2A77D1272Fc1312Bf24CA6b740df6Fd83682AaA5#code
-RINKEBY ADDRESS: 0x8005467d5e7A27BA47D05F4f54A72779AEaca9F6
+Here is the ERC721
+IPFS Address: https://ipfs.io/ipfs/QmSDDxMnxXoMX2nHWZu9msjJZz26r31kKs2B3BYqwR1EM5
+              https://ipfs.io/ipfs/QmSGN2TpEcvziD2SWVSebt9PXaFVjkfRjV9wvWEwjuRzJQ
+Metadata: {
+  “description”: “BlockGame ERC721 Task”,
+  “image”: “https://gateway.pinata.cloud/ipfs/QmSDDxMnxXoMX2nHWZu9msjJZz26r31kKs2B3BYqwR1EM5”,
+           “https://gateway.pinata.cloud/ipfs/QmSGN2TpEcvziD2SWVSebt9PXaFVjkfRjV9wvWEwjuRzJQ”,
+  “name”: “BlocKGameNft”,
+  }
+ERC721 ADDRESS: https://rinkeby.etherscan.io/address/0x800273b47e045de5c104be867b5f189b8057d757#code
+RINKEBY ADDRESS: 0x05BB02ceb608Ca9a265B8942A37B6abfF04177CB
